@@ -13,6 +13,12 @@ class maman extends Component{
         })
     }
 
+    reponseToto = () =>{
+        this.setState({
+            messageToto: "D'accord maman",
+        })
+    }
+
 render(){
     return(
         <div>
