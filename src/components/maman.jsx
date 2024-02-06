@@ -7,7 +7,9 @@ class maman extends Component{
         messageToto: null,
     }
     ordreMaman = () =>{
-
+        this.setState({
+            messageMaman:'va ranger ta chambre',
+        })
     }
 
 render(){
