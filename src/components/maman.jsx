@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Toto from "../components/toto";
 
 class maman extends Component{
 
@@ -20,8 +21,9 @@ render(){
                 <p>{this.state.messageMaman}</p>
             <hr />
 
-            TOTO
-            
+            <Toto/>
+  
+
         </div>
     )
 }

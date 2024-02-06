@@ -3,7 +3,8 @@ import React from "react";
 const Toto = () =>{
   return(
     <div>
-        <p>je suis Toto</p>
+        <h2>Toto</h2>
+        <button>Reponse</button>
     </div>
   )
 }
