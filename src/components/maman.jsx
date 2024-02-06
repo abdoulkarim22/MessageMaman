@@ -17,7 +17,11 @@ render(){
         <div>
             <h1>Maman</h1>
                 <button onClick={this.ordreMaman}>Ordre de la Maman</button>
+                <p>{this.state.messageMaman}</p>
             <hr />
+
+            TOTO
+            
         </div>
     )
 }
