@@ -21,7 +21,7 @@ render(){
                 <p>{this.state.messageMaman}</p>
             <hr />
 
-            <Toto/>
+            <Toto lestate={this.state}/>
   
 
         </div>

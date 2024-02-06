@@ -1,10 +1,15 @@
 import React from "react";
 
-const Toto = () =>{
+
+
+const Toto = (props) =>{
+
+const reponseToto = props.lestate.messageMaman !== null ? (<button>Reponse</button>) : (<button disabled>Reponse</button>)
+
   return(
     <div>
         <h2>Toto</h2>
-        <button>Reponse</button>
+       {reponseToto}
     </div>
   )
 }
